@@ -10,9 +10,14 @@ Binaries
 
 * packer.exe
   * packer.exe is used to pack the binary and emits metadata in binary form. This executable is not protected and is compiled in Rust. No obfuscation.
-  * https://github.com/aphrodite72/theia-sdk2/blob/master/docs/components/packer.md
+
+    https://github.com/aphrodite72/theia-sdk2/blob/master/docs/components/packer.md
+
 * diagnoser.exe
   * diagnoser.exe is used to analyze the causes of Theia crashes. It is very useful for identifying the exact cause of crashes and is fully documented in the SDK and source code, as it is designed for internal use. This executable is also has no obfuscation, compiled in Rust.
-  * https://github.com/aphrodite72/theia-sdk2/blob/master/docs/components/diagnoser.md
+
+    https://github.com/aphrodite72/theia-sdk2/blob/master/docs/components/diagnoser.md
+
+packer_redacted.exe and diagnoser_redacted.exe is attached to this repository for proofing. Code section is redacted intentionally. After buying, you should receive an complete copy of UPX-packed original executable and UPX-unpacked version as well.
 
 This product is also used in The Finals, EA Anti-Cheat and the FACEIT Client (and more). These resources would be very helpful for understanding the capabilities of this packer, and you could also reverse engineer packer.exe for a decryptor.
